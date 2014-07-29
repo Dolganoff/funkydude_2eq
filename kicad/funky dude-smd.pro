@@ -1,0 +1,37 @@
+update=22/04/2014 18:16:58
+last_client=pcbnew
+[general]
+version=1
+[pcbnew]
+version=1
+LastNetListRead=funky dude-smd.net
+UseCmpFile=1
+PadDrill=0.762000000000
+PadDrillOvalY=0.762000000000
+PadSizeH=1.524000000000
+PadSizeV=1.524000000000
+PcbTextSizeV=1.500000000000
+PcbTextSizeH=1.500000000000
+PcbTextThickness=0.300000000000
+ModuleTextSizeV=1.500000000000
+ModuleTextSizeH=1.500000000000
+ModuleTextSizeThickness=0.150000000000
+SolderMaskClearance=0.200000000000
+SolderMaskMinWidth=0.000000000000
+DrawSegmentWidth=0.200000000000
+BoardOutlineThickness=0.150000000000
+ModuleOutlineThickness=0.150000000000
+[pcbnew/libraries]
+LibDir=../../Kicad
+LibName1=library/USER
+LibName2=sockets
+LibName3=smd_capacitors
+LibName4=connect
+LibName5=discret
+LibName6=pin_array
+LibName7=divers
+LibName8=libcms
+LibName9=display
+LibName10=valves
+LibName11=led
+LibName12=dip_sockets

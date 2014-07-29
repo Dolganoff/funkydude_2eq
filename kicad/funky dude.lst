@@ -1,0 +1,70 @@
+eeschema (2013-05-16 BZR 4016)-stable  >> Creation date: 13/06/2013 14:10:02
+#Cmp ( ordre = Référence )
+| C1         4700p       ;             
+| C2         22n         ;             
+| C3         470p        ;             
+| C4         470n        ;             
+| C5         1uf         ;             
+| C6         1uf         ;             
+| C7         100uf       ;             
+| C8         0.1u        ;             
+| C9         22uf        ;             
+| C10        47nf        ;             
+| C11        100p        ;             
+| C12        22uf        ;             
+| P1         CONN_2      ;             
+| P2         CONN_2      ;             
+| P3         CONN_2      ;             
+| R1         2.2Meg      ;             
+| R2         2.2Meg      ;             
+| R3         1K          ;             
+| R4         5.6K        ;             
+| R5         33K         ;             
+| R6         15K         ;             
+| R7         1Meg        ;             
+| R8         1K          ;             
+| R9         2.2K        ;             
+| R10        1Meg        ;             
+| RBASS1     100K LOG    ;             
+| RGAIN1     4.7K        ;             
+| RTREBLE1   100K REVLOG ;             
+| SW1        SWITCH_INV  ;             
+| SW2        SWITCH_INV  ;             
+| U1         OP284       ;             
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| 100p         C11       ;             
+| 470p         C3        ;             
+| 4700p        C1        ;             
+| 22n          C2        ;             
+| 47nf         C10       ;             
+| 0.1u         C8        ;             
+| 470n         C4        ;             
+| 1uf          C5        ;             
+| 1uf          C6        ;             
+| 22uf         C9        ;             
+| 22uf         C12       ;             
+| 100uf        C7        ;             
+| CONN_2       P1        ;             
+| CONN_2       P2        ;             
+| CONN_2       P3        ;             
+| 1K           R3        ;             
+| 1K           R8        ;             
+| 2.2K         R9        ;             
+| 5.6K         R4        ;             
+| 15K          R6        ;             
+| 33K          R5        ;             
+| 1Meg         R7        ;             
+| 1Meg         R10       ;             
+| 2.2Meg       R1        ;             
+| 2.2Meg       R2        ;             
+| 100K LOG     RBASS1    ;             
+| 4.7K         RGAIN1    ;             
+| 100K REVLOG  RTREBLE1  ;             
+| SWITCH_INV   SW1       ;             
+| SWITCH_INV   SW2       ;             
+| OP284        U1        ;             
+#End Cmp
+
+#End List
