@@ -1,0 +1,286 @@
+(pcb "D:\Work\electronics\funky dude 2 EQ\kicad-tth\funky dude.dsn"
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "(2014-08-06 BZR 5059)-product")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer In1.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  137160 -142875  137160 -141605  137160 -104140  138430 -104140
+            196215 -104140  197485 -104140  197485 -141605  197485 -142875
+            194945 -142875  137160 -142875)
+    )
+    (via "Via[0-1]_1016:635_um")
+    (rule
+      (width 762)
+      (clearance 508.1)
+      (clearance 508.1 (type default_smd))
+      (clearance 127 (type smd_smd))
+    )
+  )
+  (placement
+    (component "User:C2-LARGE_PADS"
+      (place C1 144780 -125095 front 0 (PN 0.1u))
+      (place C2 164465 -113030 front 270 (PN 100p))
+      (place C3 167640 -113030 front 270 (PN 11n))
+      (place C4 167640 -134620 front 90 (PN 470p))
+      (place C5 153035 -130810 front 180 (PN 2200p))
+      (place C6 160020 -133985 front 90 (PN 50n))
+      (place C11 145923 -118364 front 270 (PN 47nf))
+      (place C13 187325 -136525 front 270 (PN 100n))
+    )
+    (component "User:C1V7-LARGE_PADS"
+      (place C7 173990 -125730 front 270 (PN 47uf))
+      (place C8 176530 -136779 front 270 (PN 47uf))
+      (place C9 186055 -125730 front 0 (PN 47uf))
+      (place C10 182880 -136779 front 270 (PN 47uf))
+      (place C12 143510 -137160 front 180 (PN 47uF))
+    )
+    (component "User:SIL-2-LARGE_PADS"
+      (place P1 142240 -130810 front 90 (PN CONN_2))
+      (place P2 191770 -126365 front 90 (PN CONN_2))
+      (place P3 191770 -136525 front 90 (PN CONN_2))
+    )
+    (component "User:R3-LARGE_PADS"
+      (place R1 153670 -123825 front 0 (PN 1Meg))
+      (place R2 142113 -117983 front 270 (PN 500))
+      (place R3 176530 -116840 front 0 (PN 10K))
+      (place R5 161925 -113030 front 270 (PN 47K))
+      (place R6 164465 -133985 front 270 (PN 15K))
+      (place R7 153670 -128270 front 180 (PN 22K))
+      (place R8 179070 -124460 front 270 (PN 1Meg))
+      (place R9 179070 -131445 front 180 (PN 20K))
+      (place R10 172085 -135255 front 270 (PN 20K))
+      (place R11 153035 -133350 front 180 (PN 10K))
+    )
+    (component "User:R4-LARGE_PADS"
+      (place R4 167640 -119380 front 0 (PN 2.2K))
+    )
+    (component "User:SIL-3-LARGE_PADS"
+      (place RBASS1 189230 -116713 front 0 (PN "100K LOG"))
+      (place RTREBLE1 153035 -136525 front 0 (PN "100K REVLOG"))
+      (place SW1 189230 -109855 front 180 (PN SWITCH_INV))
+      (place SW2 179070 -109855 front 180 (PN SWITCH_INV))
+    )
+    (component Discret:RV2
+      (place RGAIN1 144780 -108331 front 0 (PN 4.7K))
+    )
+    (component "User:DIP-8_LARGE_PADS"
+      (place U1 154305 -116205 front 270 (PN OP284))
+    )
+  )
+  (library
+    (image "User:C2-LARGE_PADS"
+      (outline (path signal 304.8  -3556 1016  3556 1016))
+      (outline (path signal 304.8  3556 1016  3556 -1016))
+      (outline (path signal 304.8  3556 -1016  -3556 -1016))
+      (outline (path signal 304.8  -3556 -1016  -3556 1016))
+      (outline (path signal 304.8  -3556 508  -3048 1016))
+      (pin Round[A]Pad_1778_um 1 -2540 0)
+      (pin Round[A]Pad_1778_um 2 2540 0)
+    )
+    (image "User:C1V7-LARGE_PADS"
+      (outline (path signal 127  3175 0  3019.6 -981.129  2568.63 -1866.22  1866.22 -2568.63
+            981.129 -3019.6  0 -3175  -981.129 -3019.6  -1866.22 -2568.63
+            -2568.63 -1866.22  -3019.6 -981.129  -3175 0  -3019.6 981.129
+            -2568.63 1866.22  -1866.22 2568.63  -981.129 3019.6  0 3175
+            981.129 3019.6  1866.22 2568.63  2568.63 1866.22  3019.6 981.129))
+      (pin Rect[A]Pad_1778x1778_um 1 -1270 0)
+      (pin Round[A]Pad_1778_um 2 1270 0)
+    )
+    (image "User:SIL-2-LARGE_PADS"
+      (outline (path signal 304.8  -2540 -1270  -2540 1270))
+      (outline (path signal 304.8  -2540 1270  2540 1270))
+      (outline (path signal 304.8  2540 1270  2540 -1270))
+      (outline (path signal 304.8  2540 -1270  -2540 -1270))
+      (pin Rect[A]Pad_1778x1778_um 1 -1270 0)
+      (pin Round[A]Pad_1778_um 2 1270 0)
+    )
+    (image "User:R3-LARGE_PADS"
+      (outline (path signal 304.8  -3810 0  -3302 0))
+      (outline (path signal 304.8  3810 0  3302 0))
+      (outline (path signal 304.8  3302 0  3302 1016))
+      (outline (path signal 304.8  3302 1016  -3302 1016))
+      (outline (path signal 304.8  -3302 1016  -3302 -1016))
+      (outline (path signal 304.8  -3302 -1016  3302 -1016))
+      (outline (path signal 304.8  3302 -1016  3302 0))
+      (outline (path signal 304.8  -3302 508  -2794 1016))
+      (pin Round[A]Pad_1778_um 1 -3810 0)
+      (pin Round[A]Pad_1778_um 2 3810 0)
+    )
+    (image "User:R4-LARGE_PADS"
+      (outline (path signal 304.8  -5080 0  -4064 0))
+      (outline (path signal 304.8  -4064 0  -4064 1016))
+      (outline (path signal 304.8  -4064 1016  4064 1016))
+      (outline (path signal 304.8  4064 1016  4064 -1016))
+      (outline (path signal 304.8  4064 -1016  -4064 -1016))
+      (outline (path signal 304.8  -4064 -1016  -4064 0))
+      (outline (path signal 304.8  -4064 508  -3556 1016))
+      (outline (path signal 304.8  5080 0  4064 0))
+      (pin Round[A]Pad_1778_um 1 -5080 0)
+      (pin Round[A]Pad_1778_um 2 5080 0)
+    )
+    (image "User:SIL-3-LARGE_PADS"
+      (outline (path signal 304.8  -3810 -1270  -3810 1270))
+      (outline (path signal 304.8  -3810 1270  3810 1270))
+      (outline (path signal 304.8  3810 1270  3810 -1270))
+      (outline (path signal 304.8  3810 -1270  -3810 -1270))
+      (outline (path signal 304.8  -1270 1270  -1270 -1270))
+      (pin Rect[A]Pad_1778x1778_um 1 -2540 0)
+      (pin Round[A]Pad_1778_um 2 0 0)
+      (pin Round[A]Pad_1778_um 3 2540 0)
+    )
+    (image Discret:RV2
+      (outline (path signal 203.2  3556 -381  3381.96 -1479.86  2876.86 -2471.16  2090.16 -3257.86
+            1098.86 -3762.96  0 -3937  -1098.86 -3762.96  -2090.16 -3257.86
+            -2876.86 -2471.16  -3381.96 -1479.86  -3556 -381  -3381.96 717.864
+            -2876.86 1709.16  -2090.16 2495.86  -1098.86 3000.96  0 3175
+            1098.86 3000.96  2090.16 2495.86  2876.86 1709.16  3381.96 717.864))
+      (pin Round[A]Pad_1524_um 1 -2540 -1270)
+      (pin Round[A]Pad_1524_um 2 0 1270)
+      (pin Round[A]Pad_1524_um 3 2540 -1270)
+    )
+    (image "User:DIP-8_LARGE_PADS"
+      (outline (path signal 381  -5080 1270  -3810 1270))
+      (outline (path signal 381  -3810 1270  -3810 -1270))
+      (outline (path signal 381  -3810 -1270  -5080 -1270))
+      (outline (path signal 381  -5080 2540  5080 2540))
+      (outline (path signal 381  5080 2540  5080 -2540))
+      (outline (path signal 381  5080 -2540  -5080 -2540))
+      (outline (path signal 381  -5080 -2540  -5080 2540))
+      (pin Rect[A]Pad_1778x2286_um 1 -3810 -3810)
+      (pin Oval[A]Pad_1778x2286_um 2 -1270 -3810)
+      (pin Oval[A]Pad_1778x2286_um 3 1270 -3810)
+      (pin Oval[A]Pad_1778x2286_um 4 3810 -3810)
+      (pin Oval[A]Pad_1778x2286_um 5 3810 3810)
+      (pin Oval[A]Pad_1778x2286_um 6 1270 3810)
+      (pin Oval[A]Pad_1778x2286_um 7 -1270 3810)
+      (pin Oval[A]Pad_1778x2286_um 8 -3810 3810)
+    )
+    (padstack Round[A]Pad_1524_um
+      (shape (circle F.Cu 1524))
+      (shape (circle In1.Cu 1524))
+      (attach off)
+    )
+    (padstack Round[A]Pad_1778_um
+      (shape (circle F.Cu 1778))
+      (shape (circle In1.Cu 1778))
+      (attach off)
+    )
+    (padstack Oval[A]Pad_1778x2286_um
+      (shape (path F.Cu 1778  0 -254  0 254))
+      (shape (path In1.Cu 1778  0 -254  0 254))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1778x2286_um
+      (shape (rect F.Cu -889 -1143 889 1143))
+      (shape (rect In1.Cu -889 -1143 889 1143))
+      (attach off)
+    )
+    (padstack Rect[A]Pad_1778x1778_um
+      (shape (rect F.Cu -889 -889 889 889))
+      (shape (rect In1.Cu -889 -889 889 889))
+      (attach off)
+    )
+    (padstack "Via[0-1]_1016:635_um"
+      (shape (circle F.Cu 1016))
+      (shape (circle In1.Cu 1016))
+      (attach off)
+    )
+  )
+  (network
+    (net +9V
+      (pins C10-1 C13-1 P3-2 R9-1 U1-8)
+    )
+    (net GND
+      (pins C8-2 C10-2 C11-2 C12-2 C13-2 P1-1 P2-1 P3-1 R10-2 U1-4)
+    )
+    (net Vref
+      (pins C8-1 R1-2 R3-2 R8-2 R9-2 R10-1 U1-5)
+    )
+    (net "Net-(C1-Pad1)"
+      (pins C1-1 C7-2 P1-2)
+    )
+    (net "Net-(C1-Pad2)"
+      (pins C1-2 R1-1 U1-3)
+    )
+    (net "Net-(C2-Pad1)"
+      (pins C2-1 R2-2 R3-1 U1-2)
+    )
+    (net "Net-(C2-Pad2)"
+      (pins C2-2 R4-1 R5-1 RGAIN1-3 U1-1)
+    )
+    (net "Net-(C3-Pad1)"
+      (pins C3-1 R4-2)
+    )
+    (net "Net-(C3-Pad2)"
+      (pins C3-2 RTREBLE1-1)
+    )
+    (net "Net-(C4-Pad1)"
+      (pins C4-1 R5-2 R6-2 RTREBLE1-2 U1-6)
+    )
+    (net "Net-(C4-Pad2)"
+      (pins C4-2 C6-2 R7-1 SW1-1 U1-7)
+    )
+    (net "Net-(C5-Pad1)"
+      (pins C5-1 RTREBLE1-3)
+    )
+    (net "Net-(C5-Pad2)"
+      (pins C5-2 R7-2)
+    )
+    (net "Net-(C6-Pad1)"
+      (pins C6-1 R6-1 R11-1 SW2-1)
+    )
+    (net "Net-(C7-Pad1)"
+      (pins C7-1 R8-1 SW1-3)
+    )
+    (net "Net-(C9-Pad1)"
+      (pins C9-1 RBASS1-1 RBASS1-2 SW1-2)
+    )
+    (net "Net-(C9-Pad2)"
+      (pins C9-2 P2-2)
+    )
+    (net "Net-(C11-Pad1)"
+      (pins C11-1 SW2-3)
+    )
+    (net "Net-(C12-Pad1)"
+      (pins C12-1 R11-2)
+    )
+    (net "Net-(R2-Pad1)"
+      (pins R2-1 RGAIN1-1 RGAIN1-2)
+    )
+    (net "Net-(RBASS1-Pad3)"
+      (pins RBASS1-3 SW2-2)
+    )
+    (class kicad_default "" +9V GND "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C11-Pad1)"
+      "Net-(C12-Pad1)" "Net-(C2-Pad1)" "Net-(C2-Pad2)" "Net-(C3-Pad1)" "Net-(C3-Pad2)"
+      "Net-(C4-Pad1)" "Net-(C4-Pad2)" "Net-(C5-Pad1)" "Net-(C5-Pad2)" "Net-(C6-Pad1)"
+      "Net-(C7-Pad1)" "Net-(C9-Pad1)" "Net-(C9-Pad2)" "Net-(R2-Pad1)" "Net-(RBASS1-Pad3)"
+      Vref
+      (circuit
+        (use_via Via[0-1]_1016:635_um)
+      )
+      (rule
+        (width 762)
+        (clearance 508.1)
+      )
+    )
+  )
+  (wiring
+  )
+)

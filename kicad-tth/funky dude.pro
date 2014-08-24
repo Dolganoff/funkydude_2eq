@@ -1,6 +1,6 @@
-update=22/04/2014 12:10:57
+update=24/08/2014 15:38:20
 version=1
-last_client=cvpcb
+last_client=kicad
 [pcbnew]
 version=1
 LastNetListRead=funky dude.net
@@ -33,8 +33,6 @@ LibName9=valves
 LibName10=led
 LibName11=dip_sockets
 LibDir=../../Kicad
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../Kicad
@@ -80,3 +78,5 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
+[general]
+version=1

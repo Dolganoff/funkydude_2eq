@@ -1,234 +1,234 @@
-Cmp-Mod V01 Created by CvPcb (2013-05-16 BZR 4016)-stable date = 22/04/2014 12:16:34
+Cmp-Mod V01 Created by Cvpcb (2014-08-06 BZR 5059)-product   date = 24/08/2014 17:52:06
 
 BeginCmp
 TimeStamp = /5194A946;
 Reference = C1;
 ValeurCmp = 0.1u;
-IdModule  = C2-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51B1A91A;
 Reference = C2;
 ValeurCmp = 100p;
-IdModule  = C2-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194A4FE;
 Reference = C3;
 ValeurCmp = 11n;
-IdModule  = C2-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194A574;
 Reference = C4;
 ValeurCmp = 470p;
-IdModule  = C2-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194A52D;
 Reference = C5;
 ValeurCmp = 2200p;
-IdModule  = C1V5-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194A58C;
 Reference = C6;
 ValeurCmp = 50n;
-IdModule  = C1V5-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51B1AE7D;
 Reference = C7;
-ValeurCmp = 22uf;
-IdModule  = C1V7-LARGE_PADS;
+ValeurCmp = 47uf;
+IdModule  = Capacitors_SMD:c_elec_5x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194B4BA;
 Reference = C8;
-ValeurCmp = 50uf;
-IdModule  = C2-LARGE_PADS;
+ValeurCmp = 47uf;
+IdModule  = Capacitors_SMD:c_elec_5x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194ADAA;
 Reference = C9;
-ValeurCmp = 22uf;
-IdModule  = C1V7-LARGE_PADS;
+ValeurCmp = 47uf;
+IdModule  = Capacitors_SMD:c_elec_5x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194B4C5;
 Reference = C10;
-ValeurCmp = 1uf;
-IdModule  = C2-LARGE_PADS;
+ValeurCmp = 47uf;
+IdModule  = Capacitors_SMD:c_elec_5x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194AE09;
 Reference = C11;
 ValeurCmp = 47nf;
-IdModule  = C2-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194AE1B;
 Reference = C12;
-ValeurCmp = 22uF;
-IdModule  = C1V7-LARGE_PADS;
+ValeurCmp = 47uF;
+IdModule  = Capacitors_SMD:c_elec_5x5.3;
 EndCmp
 
 BeginCmp
 TimeStamp = /535640CD;
 Reference = C13;
 ValeurCmp = 100n;
-IdModule  = C2-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194CFD4;
 Reference = P1;
 ValeurCmp = CONN_2;
-IdModule  = SIL-2-LARGE_PADS;
+IdModule  = Connect:SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194D020;
 Reference = P2;
 ValeurCmp = CONN_2;
-IdModule  = SIL-2-LARGE_PADS;
+IdModule  = Connect:SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /51B1AC68;
 Reference = P3;
 ValeurCmp = CONN_2;
-IdModule  = SIL-2-LARGE_PADS;
+IdModule  = Connect:SIL-2;
 EndCmp
 
 BeginCmp
 TimeStamp = /51B1A73D;
 Reference = R1;
 ValeurCmp = 1Meg;
-IdModule  = R3-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51B1A765;
 Reference = R2;
 ValeurCmp = 500;
-IdModule  = R3-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51B1A74C;
 Reference = R3;
 ValeurCmp = 10K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53563E77;
 Reference = R4;
 ValeurCmp = 2.2K;
-IdModule  = R4-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194A4D6;
 Reference = R5;
 ValeurCmp = 47K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194A4EE;
 Reference = R6;
 ValeurCmp = 15K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /53563E86;
 Reference = R7;
 ValeurCmp = 22K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /51B1AF4B;
 Reference = R8;
 ValeurCmp = 1Meg;
-IdModule  = R3-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194B4AA;
 Reference = R9;
 ValeurCmp = 20K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194B4B0;
 Reference = R10;
 ValeurCmp = 20K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194AE28;
 Reference = R11;
 ValeurCmp = 10K;
-IdModule  = R3-LARGE_PADS;
+IdModule  = libcms:SM0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194AD59;
 Reference = RBASS1;
 ValeurCmp = 100K LOG;
-IdModule  = SIL-3-LARGE_PADS;
+IdModule  = Connect:SIL-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194A7CF;
 Reference = RGAIN1;
 ValeurCmp = 4.7K;
-IdModule  = RV2;
+IdModule  = Discret:RV2;
 EndCmp
 
 BeginCmp
 TimeStamp = /5194A643;
 Reference = RTREBLE1;
 ValeurCmp = 100K REVLOG;
-IdModule  = SIL-3-LARGE_PADS;
+IdModule  = Connect:SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B1D3A0;
+TimeStamp = /53FA070B;
 Reference = SW1;
-ValeurCmp = SWITCH_INV;
-IdModule  = SIL-3-LARGE_PADS;
+ValeurCmp = SWITCH_INV_SMALL;
+IdModule  = Connect:SIL-3;
 EndCmp
 
 BeginCmp
-TimeStamp = /51B1D3AF;
+TimeStamp = /53FA0B44;
 Reference = SW2;
-ValeurCmp = SWITCH_INV;
-IdModule  = SIL-3-LARGE_PADS;
+ValeurCmp = SWITCH_INV_SMALL;
+IdModule  = Connect:SIL-3;
 EndCmp
 
 BeginCmp
 TimeStamp = /51B0ED3A;
 Reference = U1;
 ValeurCmp = OP284;
-IdModule  = DIP-8_LARGE_PADS;
+IdModule  = Housings_SOIC:SOIC-8_N;
 EndCmp
 
 EndListe
