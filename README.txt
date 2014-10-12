@@ -60,17 +60,12 @@ src:
 src/simulations: 
   circuit simulations
 
-src/kicad-250K-G-v2: 
-  kicad project and fab plots for preamp, 250K pots, guitar version
+src/kicad-tth: 
+  pcb design using traditional leaded components
 
-src/kicad-100K-G-v2: 
-  kicad project and fab plots for preamp, 100K pots, guitar version
+src/kicad-smd: 
+  pcb design using surface mount components
 
-src/kicad-250K-B-v2: 
-  kicad project and fab plots for preamp, 250K pots, bass version
-
-src/kicad-100K-B-v2: 
-  kicad project and fab plots for preamp, 100K pots, bass version
   
 * If you've obtained this documentation from github repositoty, you'll
 see few additional folders:
