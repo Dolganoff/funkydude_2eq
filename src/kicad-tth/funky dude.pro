@@ -1,4 +1,4 @@
-update=22/10/2014 11:49:12
+update=22/10/2014 22:22:35
 version=1
 last_client=kicad
 [pcbnew]
@@ -42,7 +42,7 @@ EquName1=devcms
 version=1
 [eeschema]
 version=1
-LibDir=C:/Users/adolganov/work/electronics/Kicad_Shared
+LibDir=D:/Work/electronics/Kicad
 [eeschema/libraries]
 LibName1=USER
 LibName2=conn
