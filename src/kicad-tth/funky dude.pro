@@ -1,4 +1,4 @@
-update=22/10/2014 22:22:35
+update=23/10/2014 10:17:32
 version=1
 last_client=kicad
 [pcbnew]
@@ -42,7 +42,7 @@ EquName1=devcms
 version=1
 [eeschema]
 version=1
-LibDir=D:/Work/electronics/Kicad
+LibDir=C:/Users/adolganov/work/electronics/Kicad_Shared
 [eeschema/libraries]
 LibName1=USER
 LibName2=conn
@@ -51,3 +51,15 @@ LibName4=linear
 LibName5=power
 LibName6=texas
 LibName7=transistors
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+RptD_X=0
+RptD_Y=100
+RptLab=1
+LabSize=60
