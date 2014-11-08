@@ -1,4 +1,4 @@
-update=24/08/2014 15:38:20
+update=07/11/2014 21:53:43
 version=1
 last_client=kicad
 [pcbnew]
@@ -33,14 +33,14 @@ LibName9=valves
 LibName10=led
 LibName11=dip_sockets
 LibDir=../../Kicad
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [eeschema]
 version=1
-LibDir=../../Kicad
-NetFmtName=
-RptD_X=0
-RptD_Y=100
-RptLab=1
-LabSize=60
+LibDir=../../../Kicad
 [eeschema/libraries]
 LibName1=USER
 LibName2=power
@@ -73,10 +73,5 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
 [general]
 version=1
