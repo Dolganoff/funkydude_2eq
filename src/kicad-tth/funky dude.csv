@@ -1,25 +1,23 @@
-Reference, Quantity, Value, Footprint, Datasheet
-C1 ,1,0.1u,User:C2-LARGE_PADS,
-C10 C7 C8 C9 ,4,47uf,User:C1V7-LARGE_PADS,
-C11 ,1,47nf,User:C2-LARGE_PADS,
-C12 ,1,47uF,User:C1V7-LARGE_PADS,
-C13 ,1,100n,User:C2-LARGE_PADS,
-C2 ,1,100p,User:C2-LARGE_PADS,
-C3 ,1,11n,User:C2-LARGE_PADS,
-C4 ,1,470p,User:C2-LARGE_PADS,
-C5 ,1,2200p,User:C2-LARGE_PADS,
-C6 ,1,50n,User:C2-LARGE_PADS,
-P1 P2 P3 ,3,CONN_2,User:SIL-2-LARGE_PADS,
-R1 R8 ,2,1Meg,User:R3-LARGE_PADS,
-R10 R9 ,2,20K,User:R3-LARGE_PADS,
-R11 R3 ,2,10K,User:R3-LARGE_PADS,
-R2 ,1,500,User:R3-LARGE_PADS,
-R4 ,1,2.2K,User:R4-LARGE_PADS,
-R5 ,1,47K,User:R3-LARGE_PADS,
-R6 ,1,15K,User:R3-LARGE_PADS,
-R7 ,1,22K,User:R3-LARGE_PADS,
-RBASS1 ,1,100K LOG,User:SIL-3-LARGE_PADS,
-RGAIN1 ,1,4.7K,Discret:RV2,
-RTREBLE1 ,1,100K REVLOG,User:SIL-3-LARGE_PADS,
-SW1 SW2 ,2,SWITCH_INV,User:SIL-3-LARGE_PADS,
-U1 ,1,OP284,User:DIP-8_LARGE_PADS,
+"Id";"Designator";"Package";"Quantity";"Designation";"Supplier and ref";
+1;"RGAIN1";"Discret:RV2";1;"4.7K";;;
+2;"C1";"Custom:C2-LARGE_PADS";1;"0.1u";;;
+3;"C2";"Custom:C2-LARGE_PADS";1;"100p";;;
+4;"C3";"Custom:C2-LARGE_PADS";1;"10n";;;
+5;"C4";"Custom:C2-LARGE_PADS";1;"470p";;;
+6;"C5";"Custom:C2-LARGE_PADS";1;"2.2n";;;
+7;"C6";"Custom:C2-LARGE_PADS";1;"47n";;;
+8;"C7";"Custom:C1V5-LARGE_PADS";1;"1uF";;;
+9;"C8,C10";"Custom:C1V5-LARGE_PADS";2;"47uf";;;
+10;"C9,C12";"Custom:C1V5-LARGE_PADS";2;"47uF";;;
+11;"C13";"Custom:C2-LARGE_PADS";1;"100n";;;
+12;"R1";"Custom:R3-LARGE_PADS";1;"1Meg";;;
+13;"R2,R8";"Custom:R3-LARGE_PADS";2;"470";;;
+14;"R3,R11";"Custom:R3-LARGE_PADS";2;"10K";;;
+15;"R5";"Custom:R3-LARGE_PADS";1;"47K";;;
+16;"R6";"Custom:R3-LARGE_PADS";1;"15K";;;
+17;"R7,R9,R10";"Custom:R3-LARGE_PADS";3;"22K";;;
+18;"R4";"Custom:R3-LARGE_PADS";1;"2.2K";;;
+19;"RBASS1";"Custom:SIL-3-LARGE_PADS";1;"100K LOG";;;
+20;"RTREBLE1";"Custom:SIL-3-LARGE_PADS";1;"100K REVLOG";;;
+21;"P1,P2,P3";"Custom:SIL-2-LARGE_PADS";3;"CONN_2";;;
+22;"U1";"Custom:DIP-8_LARGE_PADS";1;"TLC2262";;;
