@@ -1,4 +1,4 @@
-update=23/10/2014 10:17:32
+update=dim. 09 nov. 2014 19:20:49 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -38,19 +38,6 @@ version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[general]
-version=1
-[eeschema]
-version=1
-LibDir=C:/Users/adolganov/work/electronics/Kicad_Shared
-[eeschema/libraries]
-LibName1=USER
-LibName2=conn
-LibName3=device
-LibName4=linear
-LibName5=power
-LibName6=texas
-LibName7=transistors
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -63,3 +50,16 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
+[eeschema]
+version=1
+LibDir=../../../Kicad
+[eeschema/libraries]
+LibName1=USER
+LibName2=conn
+LibName3=device
+LibName4=linear
+LibName5=power
+LibName6=texas
+LibName7=transistors
+[general]
+version=1
