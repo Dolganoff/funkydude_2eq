@@ -1,4 +1,4 @@
-update=dim. 09 nov. 2014 20:04:59 CET
+update=10/11/2014 14:15:14
 version=1
 last_client=kicad
 [pcbnew]
@@ -50,8 +50,6 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=60
-[general]
-version=1
 [eeschema]
 version=1
 LibDir=../../../Kicad
@@ -63,3 +61,5 @@ LibName4=linear
 LibName5=power
 LibName6=texas
 LibName7=transistors
+[general]
+version=1
