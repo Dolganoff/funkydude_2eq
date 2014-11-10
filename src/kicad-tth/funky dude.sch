@@ -7,13 +7,13 @@ LIBS:power
 LIBS:texas
 LIBS:transistors
 LIBS:funky dude-cache
-EELAYER 25 0
+EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Bass Preamp 2EQ \"Funky Dude\""
-Date "22 apr 2014"
+Date "10 November 2014"
 Rev "2.0"
 Comp ""
 Comment1 "Open Hardware, Licensed under CERN OHL v.1.2"
