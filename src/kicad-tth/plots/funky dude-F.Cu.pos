@@ -1,0 +1,7 @@
+### Module positions - created on 04/03/2015 20:25:49 ###
+### Printed by Pcbnew version kicad (2014-12-07 BZR 5316)-product
+## Unit = inches, Angle = deg.
+## Side : F.Cu
+# Ref    Val                  Package         PosX       PosY        Rot     Side
+U1       TLC2262          DIP-8_LARGE_PADS    6.1950    -4.4550     270.0    F.Cu
+## End
