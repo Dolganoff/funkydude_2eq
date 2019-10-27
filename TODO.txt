@@ -1,6 +1,0 @@
-All the design work is finished for this version (v2)
-
-TODO list:
-----------
-
-assemble and test
